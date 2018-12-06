@@ -72,5 +72,41 @@
 			<version>1.8.9</version>
 		</dependency>
 		
+		<dependency>
+		    <groupId>com.atomikos</groupId>
+		    <artifactId>transactions</artifactId>
+		    <version>4.0.6</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>com.atomikos</groupId>
+		    <artifactId>transactions-jta</artifactId>
+		    <version>4.0.6</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.atomikos</groupId>
+		    <artifactId>transactions-jdbc</artifactId>
+		    <version>4.0.6</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.39</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.yaml</groupId>
+		    <artifactId>snakeyaml</artifactId>
+		    <version>1.16</version>
+		</dependency>
+		
   </dependencies>
 </project>
